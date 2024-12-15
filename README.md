@@ -10,17 +10,20 @@ This is a **Tic Tac Toe Game** built using **HTML**, **CSS**, and **JavaScript**
 - **Responsive Design**: A clean and simple user interface.
 
 ## Project Structure
-tictactoe/ ├── index.html # The main HTML structure of the game ├── styles.css # Styles for the game board and elements ├── script.js # JavaScript logic for gameplay and interactivity
+
+tictactoe/ index.html # The main HTML structure of the game styles.css # Styles for the game board and elements script.js # JavaScript logic for gameplay and interactivity
 
 ## How to Play
 
-1. Clone or download this repository to your local machine.
-2. Open the `index.html` file in your browser.
-3. **Gameplay**:
+1. Open the game in your browser using this link:  
+   [Play Tic Tac Toe](https://sum500.github.io/tictactoe/)
+
+2. **Gameplay**:
    - Players take turns clicking on the grid cells.
    - The status message displays whose turn it is.
    - A red line highlights the winning combination when a player wins.
-4. Click the **Restart** button to reset the game and play again.
+
+3. Click the **Restart** button to reset the game and play again.
 
 ## How to Clone the Repository
 
