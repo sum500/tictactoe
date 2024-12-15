@@ -1,0 +1,80 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.board {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border: 2px solid #000;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cell.taken {
+  cursor: not-allowed;
+}
+
+.status {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+button.restart {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button.restart:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the winning line */
+.winning-line {
+  position: absolute;
+  width: 300px;
+  height: 5px;
+  background-color: red;
+  transform-origin: left;
+  transform: rotate(0deg);
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+/* Winning line styles */
+.winning-line {
+  position: absolute;
+  height: 5px;
+  background-color: red;
+  transform-origin: 0 50%; /* Anchor the rotation to the start of the line */
+  z-index: 1;
+  border-radius: 5px;
+}
